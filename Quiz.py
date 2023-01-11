@@ -8,7 +8,7 @@ print("Press Enter to Continue")
 
 Ent = input()
 
-print("So let us get to business")
+print("So let us get to business, make sure you supply only the number corresponding to your option")
 
 First_name = ['Babatunde', 'Animasahun', 'Uthman', 'Abidemi']
 Nick = ['Newton', 'Rancho', 'YoungProf', 'Labamba']
@@ -22,7 +22,7 @@ f = 0
 print()
 for (i,j) in enumerate(First_name, start = 1):
     print(i,j)
-name_ans = int(input("What is my first name?"))
+name_ans = int(input("What is my first name? "))
 if name_ans == 3:
     p = p+1
     print("Yes sir!!!")
@@ -33,7 +33,7 @@ else:
 print()
 for (i,j) in enumerate(Nick, start = 1):
     print(i,j)
-nick_ans = int(input('What is my nick name?'))
+nick_ans = int(input('What is my nick name? '))
 if nick_ans == 2:
     p =p+1
     print("Nice One!!!")
@@ -44,7 +44,7 @@ else:
 print()
 for (i,j) in enumerate(Age, start = 1):
     print(i,j)
-age_ans = int(input('How old am I?'))
+age_ans = int(input('How old am I? '))
 if age_ans == 3:
     p = p+1
     print('Keep it up!')
@@ -56,7 +56,7 @@ print()
 for(i,j) in enumerate(Fav_Artist, start = 1):
     print(i,j)
 
-Fav_Artist_ans = int(input('Which Artist is my favorite?'))
+Fav_Artist_ans = int(input('Which Artist is my favorite? '))
 if Fav_Artist_ans == 3:
     p+=1
     print('You sabi!!!')
@@ -68,7 +68,7 @@ print()
 for (i,j) in enumerate(Course_of_study, start =1):
     print(i,j)
 
-Course_of_study_ans = int(input('What is my course of study?'))
+Course_of_study_ans = int(input('What is my course of study? '))
 if Course_of_study_ans == 1:
     p+=1
     print('Yeah Yeah, I am a Telcommunication Engineer')
