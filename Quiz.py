@@ -1,5 +1,5 @@
 print()
-print("Let's see how much you know about the person who wrote this code")
+print("Let's see how much you know about the person that wrote this code")
 
 User_name = input("What's your name? ")
 
@@ -68,7 +68,7 @@ print()
 for (i,j) in enumerate(Course_of_study, start =1):
     print(i,j)
 
-Course_of_study_ans = int(input('What is my course of study? '))
+Course_of_study_ans = int(input('What was my course of study? '))
 if Course_of_study_ans == 1:
     p+=1
     print('Yeah Yeah, I am a Telcommunication Engineer')
